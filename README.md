@@ -49,10 +49,10 @@ Pop left is inefficient in a regular queue
 
 ```
 import deque
-```
 queue = deque([])
 queue.append('x')
 queue.append('y')
 queue.popleft()
 ```
+
 ```(queue ==  ['y'])```
