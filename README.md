@@ -53,6 +53,5 @@ queue = deque([])
 queue.append('x')
 queue.append('y')
 queue.popleft()
+(queue ==  ['y'])
 ```
-
-```(queue ==  ['y'])```
