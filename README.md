@@ -18,8 +18,7 @@ Lists
 
 `lst.pop([i])` default arg is -1, which will pop the last element and return it
 
-Using a list to model a stack
------------------------------
+##Using a list to model a stack##
 ```
 stack = []
 ```
@@ -37,10 +36,23 @@ stack = ['x','y']
 `pop` ->
 ```
 lst.pop()
-stack = ['x']
+(stack == ['x'])
 ```
 `peek` ->
 ```
 stack[len(stack)-1]
 ```
 
+Queues
+------
+Pop left is inefficient in a regular queue
+
+```
+import deque
+```
+queue = deque([])
+queue.append('x')
+queue.append('y')
+queue.popleft()
+```
+```(queue ==  ['y'])```
