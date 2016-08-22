@@ -20,8 +20,9 @@ Lists
 
 Using a list to model a stack
 -----------------------------
-
+```
 stack = []
+```
 
 `push` ->
 ```
@@ -37,7 +38,7 @@ stack = ['x','y']
 ```
 lst.pop()
 stack = ['x']
-
+```
 `peek` ->
 ```
 stack[len(stack)-1]
